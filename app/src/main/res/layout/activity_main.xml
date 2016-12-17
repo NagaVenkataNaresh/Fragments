@@ -1,0 +1,27 @@
+<LinearLayout android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <fragment
+        android:layout_width="match_parent"
+        android:name= "naresh.fragments.Activitys.Tfragment"
+        android:layout_height="150dp"
+        android:id="@+id/Tfragment"
+        android:layout_margin="10dp"
+        tools:layout="@layout/activity_tfragment"/>
+
+    <fragment
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/Bfragment"
+        android:name="naresh.fragments.Activitys.Bfragment"
+        android:layout_margin="10dp"
+        tools:layout="@layout/activity_bfragment"/>
+
+
+
+
+</LinearLayout>
